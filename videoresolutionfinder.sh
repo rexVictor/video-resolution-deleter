@@ -149,7 +149,7 @@ search() {
         ;;
     esac
 
-  done < <(find "$DIRECTORY" "-type" "f" "-name" "*.flv")
+  done < <(find "$DIRECTORY" "-type" "f")
 }
 
 init "$@"
